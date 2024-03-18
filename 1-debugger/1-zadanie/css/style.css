@@ -94,8 +94,8 @@ body {
 }
 .article-btn {
     align-self: flex-end;
-    background: #60D;
-    color: #ffffff;
+    /* background-color: dodgerblue; 
+    color: #ffffff;  */
     padding: 20px 40px;
     display: inline-block;
     text-decoration: none;
@@ -103,8 +103,8 @@ body {
 }
 
 .article-btn:hover {
-  background: #111;
-  color: #000;
+  background-color: dodgerblue;
+  color: rgb(235, 235, 84);
 }
 .btn {
     background: #333;
