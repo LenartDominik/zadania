@@ -20,8 +20,10 @@ inputs.forEach(el => {
 form.addEventListener("submit", function(e) {
     e.preventDefault();
 
-    const val1 = input1.value;
-    const val2 = input2.value;
+    // const val1 = input1.value;
+    // const val2 = input2.value;
+    const val1 = parseFloat(input1.value);
+    const val2 = parseFloat(input1.value);
 
     alert(`Wynik dodawania liczb ${val1} i ${val2} to: ${val1 + val2}`);
 });
