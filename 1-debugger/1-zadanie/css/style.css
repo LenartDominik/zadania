@@ -106,7 +106,7 @@ body {
 .article-btn {
     align-self: flex-end;
     /* background-color: dodgerblue;  */
-    color: #ffffff;
+    /* color: #ffffff; */
     padding: 20px 40px;
     display: inline-block;
     text-decoration: none;
@@ -120,5 +120,5 @@ body {
 
 .btn {
     background: #333;
-    color: #686868;
+    color: #fff;
 }
